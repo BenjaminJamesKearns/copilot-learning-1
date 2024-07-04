@@ -13,4 +13,5 @@ const comments = require('./comments.js');
 
 // Get all comments
 app.get('/comments', (req, res) => {
-    res.json(comments)
+    res.json(comments);
+});
